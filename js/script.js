@@ -1,5 +1,4 @@
-import { users } from './data.js';
-
+// import { users } from './data.js';
 // console.log(users);
 
 const itemPerPage = 10;
@@ -58,7 +57,7 @@ fetch('https://randomuser.me/api/?results=22')
                     <div class="contact-details">
                         <img class="avatar" src="${users[j].image}">
                         <h3>${users[j].name}</h3>
-                        <span class="email">${users[j].name.replaceAll(' ', '.') + '@example.com'}</span>
+                        <span class="email">${users[j].name.toLowerCase().replaceAll(' ', '.') + '@example.com'}</span>
                     </div>
                     <div class="joined-details">
                         <span class="date">Joined ${users[j].joined}</span>
