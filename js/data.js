@@ -1,5 +1,5 @@
-export const users = [
-    // const users = [
+// export const users = [
+const users = [
     {
         "name": "iboya vat",
         "image": "https://randomuser.me/api/portraits/thumb/women/67.jpg",

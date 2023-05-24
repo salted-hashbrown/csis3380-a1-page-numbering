@@ -1,4 +1,4 @@
-import { users } from './data.js';
+// import { users } from './data.js';
 console.log(users);
 
 const itemPerPage = 10;
